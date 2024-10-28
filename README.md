@@ -16,9 +16,7 @@ CNNs are deep learning models designed for visual data analysis, making them par
 
 By evaluating the performance of CNN and SVM in driver drowsiness detection, this project aims to identify the strengths and limitations of each approach, ultimately providing insights into the most effective methods for real-time monitoring and alerting systems. The findings may contribute to developing more reliable driver assistance systems, enhancing road safety for all.
 
-![Drowsy Driver](images/drowsy.jpg)
-*Figure 1: Drowsy Driver - An example image illustrating the characteristics of driver drowsiness.*
-*Copyright © 2024 Nauto. All rights reserved.*
+
 
 ## Project Objective
 To develop a real-time driver drowsiness detection system using Convolutional Neural Networks (CNN) and Support Vector Machines (SVM), comparing their effectiveness in accurately identifying drowsy states. The goal is to enhance driver safety by providing alerts and to create a cost-effective solution for automotive integration.
@@ -109,14 +107,8 @@ The dataset includes annotations for approximately **15,000 pupil points** acros
 The MRL Eye Dataset is publicly available for download [here](http://mrl.cs.vsb.cz/eyedataset). The annotations for the pupil points can be downloaded [here](http://mrl.cs.vsb.cz/data/eyedataset/pupil.txt). For further details about the dataset, refer to the paper titled "Pupil localization using geodesic distance." For any questions regarding the dataset, please contact **Radovan Fusek**.
 
 
-## Output
-## Eye Images
 
-| Open Eye Image 1           |               Open Eye Image 2 |
-|------------------|------------------|
-| ![closed Eye ](images/closed_eye_output.png)          |         ![Open Eye ](images/open_eye_output.png) |
 
-*Figure: Output for open eye and closed eye*
 
 ## Results and Conclusion
 
@@ -134,9 +126,5 @@ In contrast, the Support Vector Machine (SVM) algorithm achieved a remarkable ac
 
 ![training_val_loss](images/trainingandvalidationlossgraph.jpg)
 *Figure: Training and Validation loss*
-
-
-## Publications
-- Ghimire, P., Khanal, R., Pandey, P., Dhakal, S., Bhatta, L.P. (2023). "Algorithms Comparison in Drowsiness Detection." Nepal Journals Online, Journal of Advanced College of Engineering and Management, Vol. 8, No. 2, DOI: [10.3126/jacem.v8i2.55946](https://doi.org/10.3126/jacem.v8i2.55946)
 
 
